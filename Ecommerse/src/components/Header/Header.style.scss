@@ -1,0 +1,49 @@
+header {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .navBar{
+      width: 85%;
+      height: 100%;
+      background-color: aqua;
+      border-radius: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0px 40px;
+    }
+  
+  
+    img {
+      height: 40px;
+      cursor: pointer;
+    }
+  
+    button {
+      padding: 8px 16px;
+      background-color: #08256f;
+      border: none;
+      border-radius: 4px;
+      color: #fff;
+      // margin-right: 45px;
+      cursor: pointer;
+
+    }
+
+    .items{
+
+      display: flex;
+      align-items: center;
+
+      .login{
+        margin-right: 45px;
+      }
+     
+
+      
+    }
+  }
+  
